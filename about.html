@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Person</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Target Person</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">Target</a></li>
+                    <li><a href="projects.php">Easy</a></li>
+                    <li><a href="contact.php">Hard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Target Locked!!!</h2>
+            <p>Muhammad Haikal Hakimie bin Mohd.Shahudin</p>
+            <img src="image/image2.jpg" alt="Target Person" class="profile-image">
+            <a href="projects.php" class="btn">List of Questions</a>
+        </div>
+    </section>
+</body>
+</html>
