@@ -1,0 +1,178 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+.hero {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 60px 0; /* Reduced padding to decrease space */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 20px; /* Add space between text and image */
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    margin: 0 auto 30px auto; /* Add space below the image */
+    display: block;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.profile-image::after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    border: 4px solid #ff6b6b;
+    box-shadow: 0 4px 10px rgba(255, 107, 107, 0.5);
+}
+
+.btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 8px 15px rgba(255, 107, 107, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4a4a;
+    box-shadow: 0 15px 25px rgba(255, 107, 107, 0.4);
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 20px; /* Further reduced padding for smaller screens */
+    }
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+/* styles.css */
+
+/* Other existing styles remain unchanged */
+
+.questions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.questions-table th, .questions-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    color: black; /* Black font color for all table text */
+}
+
+.questions-table th {
+    background-color: #504f4f; /* Dark brown background for headers */
+    color: white; /* White font color for headers */
+    font-weight: bold;
+}
+
+.questions-table .question-row {
+    background-color: #D7CCC8; /* Light brown background for rows */
+}
+
+.questions-table td ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.questions-table ul li {
+    margin-bottom: 5px;
+}
